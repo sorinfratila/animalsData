@@ -1,6 +1,11 @@
 /* put your css code here */
 
+/* .animal {
+  display: flex;
+} */
+
 .animal_image-slider {
+  /* nice job with the flex box */
   display: flex;
   flex-wrap: wrap;
 }
@@ -27,6 +32,8 @@
   height: 300px;
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Coast_Garter_Snake.jpg/500px-Coast_Garter_Snake.jpg");
   background-size: cover;
+  /* background-size: contain;
+  background-repeat: no-repeat; */
 }
 
 .animal_paragraph-continuation {
@@ -35,6 +42,7 @@
 
 .animal-class_container {
   display: flex;
+  /* flex-direction: column; */
   flex-wrap: wrap;
   justify-content: center;
 }
